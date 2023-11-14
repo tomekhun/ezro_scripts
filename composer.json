@@ -1,0 +1,28 @@
+{
+    "name": "tomekhun/ezro_scripts",
+    "description": "My helpers",
+    "type": "library",
+    "keywords": ["php", "laravel", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomekhun",
+            "email": "tamas@falus.hu"
+        }
+    ],
+    "require": {
+        // Dependencies required by your package
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\PackageName\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vendor\\PackageName\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
