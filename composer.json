@@ -15,14 +15,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Vendor\\PackageName\\": "src/"
+            "tomekhun\\ezro_scripts\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Vendor\\PackageName\\Tests\\": "tests/"
-        }
-    },
+    
     "minimum-stability": "dev",
     "prefer-stable": true
 }
